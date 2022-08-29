@@ -55,7 +55,35 @@ def cerchio(t, r):
 #cerchio(bob, 150)
 
 
+
+def arco(t,r,angolo):
+    circonferenza = 2 * 3.14 * r
+    n = 50
+    l = circonferenza/n
     
+    tot = round(n * (angolo/360))+1
+    
+    for item in range(tot):
+        t.fd(l)
+        t.lt(360/n)
+    turtle.done()
+
+print("******************************")
+
+arco(bob, 50, 180)
+
+n = 3
+angolo = 360
+    
+tot = n * (angolo/360)
+print(tot)
+
+    
+
+
+
+
+
 
 
 
