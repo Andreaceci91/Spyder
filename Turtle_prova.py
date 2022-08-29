@@ -78,6 +78,9 @@ angolo = 360
 tot = n * (angolo/360)
 print(tot)
 
+
+print("ciao ciao prova")
+
     
 
 
